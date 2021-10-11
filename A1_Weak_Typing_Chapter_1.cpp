@@ -5,7 +5,7 @@ using namespace std;
 
 ll solve(string s1)
 {
-    ll n, m, a, l, r, b, x, y, k, c = mod, m1, m2, rr, cc;
+    ll n, m, a, l, r, b, x, y  , k, c = mod, m1, m2, rr, cc;
     c = 0;
     string s2 = "";
     for (auto x : s1)
@@ -30,6 +30,7 @@ int main()
         infile >> n >> s1;
         ll ans = solve(s1);
         outfile << "Case #" << t0 << ": " << ans << "\n";
+       // outfile << "Case #" << t0 << ": " << ans << "\n";
     }
     return 0;
 }
