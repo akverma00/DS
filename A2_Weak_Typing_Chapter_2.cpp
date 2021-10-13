@@ -2,7 +2,8 @@
 #include <bits/stdc++.h>
 #define mod 1000000007
 using namespace std;
-
+///in this some code are changed by prince .
+/// only for trial 
 ll solve(string s1)
 {
     ll n, m, a, l, r, b, x, y, k, c = mod, m1, m2, rr, cc;
