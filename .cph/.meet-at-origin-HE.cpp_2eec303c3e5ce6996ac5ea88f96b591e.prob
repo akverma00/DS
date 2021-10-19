@@ -1,0 +1,1 @@
+{"name":"Local: meet-at-origin-HE","url":"c:\\xampp\\htdocs\\DSA\\meet-at-origin-HE.cpp","tests":[{"id":1634486485186,"input":"2\nLRLLLRUUD\nDDDUULDR","output":"2\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\xampp\\htdocs\\DSA\\meet-at-origin-HE.cpp","group":"local","local":true}

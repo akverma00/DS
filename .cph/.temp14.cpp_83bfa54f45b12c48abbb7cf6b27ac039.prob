@@ -1,0 +1,1 @@
+{"name":"Local: temp14","url":"c:\\xampp\\htdocs\\DSA\\temp14.cpp","tests":[{"id":1634391507369,"input":"9\n2 7 8 5 1 6 3 9 4","output":"Case #1: \n6 8 7 5 2 9 4 3 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\xampp\\htdocs\\DSA\\temp14.cpp","group":"local","local":true}

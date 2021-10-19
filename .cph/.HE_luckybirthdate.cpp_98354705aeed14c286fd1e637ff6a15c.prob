@@ -1,0 +1,1 @@
+{"name":"Local: HE_luckybirthdate","url":"c:\\xampp\\htdocs\\DSA\\HE_luckybirthdate.cpp","tests":[{"id":1634483501890,"input":"1\n21082000","output":"29111192"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\xampp\\htdocs\\DSA\\HE_luckybirthdate.cpp","group":"local","local":true}
