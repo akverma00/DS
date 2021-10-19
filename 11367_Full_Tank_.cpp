@@ -8,6 +8,7 @@ ll dijastra(ll n, ll s, ll d, vector<vector<pair<ll, ll>>> &egg, ll cap, vll &pr
 {
     priority_queue<vll, vector<vll>, greater<vll>> pq; //distance ,u -> node,c->capacity
     vector<vll> dis(n, vll(cap + 1, INT_MAX));
+
     dis[s][0] = 0; // at source s with initial fuel =c=0
     vector<vll> vis(n, vll(cap + 1, 0));
     pq.push({0, s, 0});
@@ -25,8 +26,10 @@ ll dijastra(ll n, ll s, ll d, vector<vector<pair<ll, ll>>> &egg, ll cap, vll &pr
         if (vis[u][cap_now])
             continue;
         vis[u][cap_now] = 1;
-        for (auto [v, c] : egg[u])
+        for (auto &vvv : egg[u])
         {
+            ll v = vvv.first;
+            ll c = vvv.second;
             // if we have fuel(cap_now) to reach v
             if (cap_now - c >= 0)
             {
