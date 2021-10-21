@@ -50,7 +50,8 @@ int main()
     {
         infile >> n >> s1;
         ll ans = solve(s1);
-        outfile << "Case #" << t0 << ": " << ans << "\n";
+        // A space after the cases looks good.
+        outfile << "Case #" << t0 << ": " << ans << " \n";
     }
     return 0;
 }
