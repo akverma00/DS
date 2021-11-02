@@ -1,0 +1,1 @@
+{"name":"Local: 3-problems","url":"c:\\xampp\\htdocs\\DSA\\3-problems.cpp","tests":[{"id":1634488834383,"input":"1\n9\n5 1 3\n2 7 0\n10 8 10\n6 2 9\n2 10 7","output":"56"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\xampp\\htdocs\\DSA\\3-problems.cpp","group":"local","local":true}

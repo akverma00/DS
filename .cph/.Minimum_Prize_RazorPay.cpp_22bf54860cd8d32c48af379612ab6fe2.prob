@@ -1,0 +1,1 @@
+{"name":"Local: Minimum_Prize_RazorPay","url":"c:\\xampp\\htdocs\\DSA\\Minimum_Prize_RazorPay.cpp","tests":[{"id":1633754909765,"input":"3 5\n50 1 50","output":"13"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\xampp\\htdocs\\DSA\\Minimum_Prize_RazorPay.cpp","group":"local","local":true}
