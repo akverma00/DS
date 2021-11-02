@@ -1,5 +1,53 @@
 /* https://leetcode.com/discuss/interview-question/1221635/juspay-hackathon-round-question */
+/*
+g++ -pthread abc.cpp
 
+Input1:
+
+7
+2
+5
+World
+Asia
+Africa 
+China
+India
+SouthAfrica
+Egypt
+1 China 9
+1 India 9
+3 Asia 9
+2 India 9
+2 Asia 9
+
+Output1:
+
+true
+true
+true
+false
+true
+
+Input2:
+
+3
+2
+2
+World
+China
+India
+3 India 1
+1 World 9
+
+Output2:
+
+false
+true
+
+
+
+
+*/
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
